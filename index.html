@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Registration Form</title>
+</head>
+<body>
+   <h1>Registration Form</h1>  
+   <div>
+      <span>First Name: *</span>
+      <input type="text" name="firstName">
+   </div>
+   <br>
+   <div>
+      <span>Last Name: *</span>
+      <input type="text" name="lastName">
+   </div>
+   <br>
+   <div>
+      <span>Email Address:  *</span>
+      <input type="text" name="email">
+   </div>
+   <br>
+   <div>
+      <span>Password: *</span>
+      <input type="password" name="password">
+   </div>
+   <br>
+   <div>
+      <span>Confirm Password: *</span>
+      <input type="password" name="confirmPassword">
+   </div>
+   <p>Gender Identity:</p>
+   <input type="radio" name="gender">
+   <span>Male</span>
+   <input type="radio" name="gender">
+   <span>Female</span>
+   <input type="radio" name="gender">
+   <span>Non-binary</span>
+   <input type="radio" name="gender">
+   <span>I prefer not to answer</span>
+
+   <div>
+      <p>A short description about myself:</p>
+      <textarea name="textArea" cols="30" rows="10"></textarea>
+   </div>   
+
+   <div>
+      <span>Favorite Language:</span>
+      <select name="language">
+         <option value="Javascript">Javascript</option>
+         <option value="Javascript">Python</option>
+         <option value="Javascript">C#</option>
+      </select>
+   </div>
+   <div>
+      <input type="checkbox" name="checkbox">
+      <span>Yes, I would  like to receive  periodic email updates</span>
+   </div>
+   <input type="submit" value="Create Account">
+   <p>* Indicates a required field </p>
+</body>
+</html>
